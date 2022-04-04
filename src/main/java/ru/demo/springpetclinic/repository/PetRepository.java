@@ -1,0 +1,7 @@
+package ru.demo.springpetclinic.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import ru.demo.springpetclinic.model.Pet;
+
+public interface PetRepository extends JpaRepository<Pet, Long> {
+}
